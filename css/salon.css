@@ -1,0 +1,188 @@
+#salon{
+	width: 100%;
+	height: 800px;
+    padding: 15px;
+    background:image("../img/pasto.jpg");
+}
+body{
+	background: #f1eded;
+}
+.pista{
+    background: url(../img/pasto.jpg);
+    width: 40%;
+    height: 27%;
+    left: 30%;
+    top: 15%;
+    border-bottom-left-radius: 75%;
+    border-bottom-right-radius: 75%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.banda{
+	background: url("../img/vaile.jpg");
+    width: 20%;
+    height: 10%;
+    left: 40%;
+    border-radius: 15%;
+
+}
+.mesa{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	position: relative;
+	margin: 5% 1%;
+}
+.m1{
+	position: absolute;
+    right: 10%;
+    background:indigo;
+}
+.m2{
+    position: absolute;
+    left: 10%;
+    background:purple;
+}
+.m3{
+    position: absolute;
+    right: 15%;
+    top: 20%;
+    background:#e83e8c;
+}
+.m4{
+	position: absolute;
+    left: 15%;
+    top: 20%;
+    background:red;
+}
+.m5{
+    position: absolute;
+    left: 25%;
+    top: 30%;
+    background:#fd7e14;
+}
+.m6{
+    position: absolute;
+    right: 25%;
+    top: 30%;
+    background:yellow;
+}
+.m7{
+	position: absolute;
+    left: 35%;
+    top: 40%;
+    background:green;
+}
+.m8{
+    position: absolute;
+    right:  35%;
+    top: 40%;
+    background:teal;
+}
+.m9{
+    position: absolute;
+    left: 46%;
+    top: 42%;
+    background:cyan;
+}
+.m10{
+    position: absolute;
+    right: 15%;
+    top: 40%;
+    background:#007bff;
+}
+.silla{
+	width: 20px;
+	height: 20px;
+	background: #973800;
+	border-radius: 50%;
+	display: block;
+	cursor: pointer;
+}
+
+.s1{
+	left: 29px;
+    top: -23px;
+}
+.s2{
+	left: 71px;
+    top: 66px;
+}
+.s3{
+	left: 63px;
+    top: -11px;
+}
+.s4{
+	left: 44px;
+    top: 84px;
+}
+.s5{
+	left: 13px;
+    top: 82px;
+}
+.s6{
+	left: 80px;
+    top: 15px;
+}
+.s7{
+	left: -5px;
+    top: -11px;
+}
+.s8{
+	left: -22px;
+    top: 23px;
+}
+.s9{
+	left: -15px;
+    top: 59px;
+}
+.s10{
+	left: 84px;
+    top: 39px;
+}
+.img-container{
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 300px;
+}
+#carousel-example-generic{
+    height: 300px;
+    overflow: hidden;
+}
+#num{
+    position: relative;
+    left: 40%;
+    top: 24%;
+    font-size: 30px;
+    color:url("../img/pasto.jpg");
+}
+#n10{
+    position: relative;
+    left: 29%;
+    top: 24%;
+    font-size: 30px;
+    color:url("../img/pasto.jpg");
+}
+#pista,#grupo{
+    background:image("../img/pasto.jpg");
+    font-size: 225%;
+    position: relative;
+    top: 32%;
+    left: 28%;
+    font-family: monospace;
+}
+.a, .silla, .pista, .banda{
+    position: absolute;
+}
+.a1{
+    left: 30%;
+}
+.a2{
+    right: 30%;
+}
+.a3{
+    left: 22%;
+}
+.a4{
+    right: 22%;
+}

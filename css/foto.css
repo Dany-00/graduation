@@ -1,0 +1,66 @@
+#ima{
+	position: absolute;
+    left: 90%;
+    background: #7ce8d996;
+    padding: 3px;
+    border-radius: 11px;
+    width: 10%;
+}
+#error{
+    display: none;
+}
+.modal-content{
+	width: 125%;
+}
+h2{
+    font-size: 32px;
+    color: #804747;
+    margin-left: 2%;
+}
+.recuadro:hover
+{
+-webkit-transform: scale(1.07);
+-ms-transform: scale(1.07);
+transform: scale(1.07);
+}
+.recuadro{
+	width: 20%;
+	height: 225px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 4%;
+    background: -webkit-linear-gradient(white, #ececec);
+}
+.foto{
+    width: 100%;
+    height: 80%;
+    border-radius: 15px;
+}
+.ico {
+    top: 20px;
+    left: 10px;
+    cursor: pointer;
+}
+.foto:hover{
+    filter: sepia(60%);
+}
+.conten{
+    display: inline-block;
+    vertical-align: top;
+}
+.name p{
+    font-size: 12px;
+    margin: 0 0 -2px;
+}
+.name{
+    margin-top: 10px;
+    width: 60%;
+}
+.lik{
+    text-align: right;
+    margin-top: 6%;
+}
+.lik , .ico{
+    width: 15%;
+}
